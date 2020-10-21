@@ -1,0 +1,91 @@
+body {
+  background-color: #373943;
+  color: #9294A0;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.6;
+  text-align: center;
+}
+h1 {
+  color: #9D9FAA;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+}
+h2 {
+  color: #9D9FAA;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+h3 {
+  color: #9D9FAA;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.link {
+  color: #878A97;
+  font-size: 22px;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: #9294A0;
+}
+i {
+  padding: 0px 10px;
+  transition: 0.2s;
+}
+i:hover {
+  color: #6D64B9;
+  font-size: 150%;
+}
+#img-circle {
+  border-radius: 10%;
+}
+.container {
+  width: 600px;
+  margin: 50px auto;
+}
+@media (max-width: 960px) {
+  .container {
+    width: 600px;
+    margin: 50px auto;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+    margin: 50px auto;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+    margin: 50px auto;
+  }
+}
+.card {
+  background: #25262D;         /* White background */
+  padding:  10px 30px;             /* Internal space */
+  border-radius: 4px;        /* Small radius */
+  box-shadow: 1px 1px 4px #1C1C22;  /* Light shadow */
+  margin: 15px auto;
+  transition: 0.2s;
+  border: 1px dotted #373943;
+}
+.card-transition-scale:hover {
+  /* background: #1C1C22; */
+  transform: scale(1.03);
+}
+
+.hover_img a { position:relative; }
+.hover_img a span { position:absolute; display:none; z-index:99; }
+.hover_img a:hover span { display:block; }
